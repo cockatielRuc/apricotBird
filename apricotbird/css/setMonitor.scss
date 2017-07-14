@@ -1,4 +1,6 @@
 /* common */
+.txtU{ text-decoration: underline; }
+
 #siteTit{
     color: #ff8e00;
     font-weight: bold;
@@ -24,15 +26,4 @@
 body{
     margin: 0 auto !important;
     text-align: center;
-}
-
-
-@media screen and (min-width:1024px) {
-    body{
-    }
-}
-
-@media screen and (max-width: 640px) {
-    body{
-    }
 }

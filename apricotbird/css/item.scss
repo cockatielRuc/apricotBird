@@ -2,7 +2,7 @@
     color: #ff8e00;
     font-weight: bold;
     font-size: 150%;
-    font-family: "メイリオ",Arial,Verdana;
+    font-family: Arial,Verdana;
     margin: 10px;
     text-align: left;
     width: 100%;
@@ -26,18 +26,13 @@
     vertical-align: middle;
     width: 150px;
     height: 26px;
-    font-family: "メイリオ",Arial,Verdana;
+    font-family: Arial,Verdana;
     font-size:70%;
     color: #555555;
 }
 
-.itemHR{
-    border: dashed 3px #fd680d;
-    border-width: 3px 0 0 0;
-    margin: 60px auto 20px;
-}
-
-.itemBox{
+.itemBox,
+.partsBox{
     display: inline-block;
     width: 86px;
     height: 120px;
@@ -61,17 +56,21 @@
 }
 #wdi000,
 #wdp000{display: none !important;}
-.itemIcon{
+
+.itemIcon,
+.partsIcon{
     top:83px;
     left: 3px;
 }
-.itemNo{
+.itemNo,
+.partsNo{
     font-size: 85%;
     top:85px;
     left: 26px;
 }
 
-.itemMask{
+.itemMask,
+.partsMask{
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -85,48 +84,52 @@
     z-index: 20;
 }
 
-/* Modal window */
-.modal{display:none;}
-.modalBody{
-    position: fixed;
-    z-index:90;
-    background-color: rgba(255, 255, 255, 1.0);
-    border: solid 1px #555;
-    width:700px;
-    height: 420px;
-    left:50%;
-    top:50%;
-}
-.modalBody li:nth-child(1){ width: 310px; }
-.modalBody li:nth-child(2){ width: 340px; padding: 15px; }
-.closeBtn{
-    position: absolute;
-    z-index:100;
-    top: -18px;
-    right: -18px;
-}
-.itemDataTit{
+.itemName,
+.partsName{
+    font-size: 150%;
     font-weight: bold;
-    padding-bottom: 10px;
-    font-size: 100%;
+    margin: 10px;
 }
-.itemData{
-    background-color: #fff;
-    font-size: 80%;
+.itemNote,
+.partsNote{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+        p{ margin: 10px; }
+        ul{ margin: 30px auto; text-align: center; }
+        li{
+            display: inline-block;
+            width: 40px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        dt{
+            margin: 25px 10px 5px 10px;
+        }
+        dd{
+            display: inline-block;
+            width: 80px;
+            text-align: left;
+            vertical-align: middle;
+            margin: 2px;
+            img{
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                }
+        }
 }
 
-.over img{
-    opacity:0.5;
+.itemHR{
+    border: dashed 3px #999;
+    border-width: 3px 0 0 0;
+    margin: 15px auto;
 }
-#itemNav004, #itemNav005,
-#itemNav006, #itemNav010,
-#itemNav011, #itemNav013,
-#itemNav014, #itemNav016,
-#partsNav001, #partsNav002,
-#partsNav003, #partsNav004{ margin-top: 8px; }
-#itemNav004 dd, #itemNav005 dd,
-#itemNav006 dd, #itemNav010 dd,
-#itemNav011 dd, #itemNav013 dd,
-#itemNav014 dd, #itemNav016 dd,
-#partsNav001 dd, #partsNav002 dd,
-#partsNav003 dd, #partsNav004 dd{ margin: 0 4px 0 0; }
+
+
+@media screen and (max-width: 640px) {
+    .itemHR{
+    border-width: 1px 0 0 0;
+    }
+}
+

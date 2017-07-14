@@ -1,64 +1,29 @@
-// parts Nav
-jQuery(function($){
-    $("#partsThumBox001 img").bind("load",function(){
-        var ImgHeight = $(this).height();
-        $('#partsThumBox001').css('height',ImgHeight);
+$(document).ready(function(){
+    $('.partsMask').mouseover(function(){
+    $(this).css('opacity','0');
+    }).mouseout(function(){
+    $(this).css('opacity','0.5');
     });
-    
-    $('#partsNav001 a').click(function(){
-        if($(this).hasClass('over') == false){
-            $('#partsNav001 a').removeClass('over');
-            $(this).addClass('over');
-            $('#partsThumBox001 img').hide().attr('src',$(this).attr('href')).fadeIn();
-        };
-        return false;
-    }).filter(':eq(0)').click();
 });
 
-jQuery(function($){
-    $("#partsThumBox002 img").bind("load",function(){
-        var ImgHeight = $(this).height();
-        $('#partsThumBox002').css('height',ImgHeight);
-    });
-    
-    $('#partsNav002 a').click(function(){
-        if($(this).hasClass('over') == false){
-            $('#partsNav002 a').removeClass('over');
-            $(this).addClass('over');
-            $('#partsThumBox002 img').hide().attr('src',$(this).attr('href')).fadeIn();
-        };
-        return false;
-    }).filter(':eq(0)').click();
-});
 
-jQuery(function($){
-    $("#partsThumBox003 img").bind("load",function(){
-        var ImgHeight = $(this).height();
-        $('#partsThumBox003').css('height',ImgHeight);
-    });
-    
-    $('#partsNav003 a').click(function(){
-        if($(this).hasClass('over') == false){
-            $('#partsNav003 a').removeClass('over');
-            $(this).addClass('over');
-            $('#partsThumBox003 img').hide().attr('src',$(this).attr('href')).fadeIn();
-        };
-        return false;
-    }).filter(':eq(0)').click();
-});
+partsListName = new Array(
+''
+);
+var partsListmnum = 1 * 8;
 
-jQuery(function($){
-    $("#partsThumBox004 img").bind("load",function(){
-        var ImgHeight = $(this).height();
-        $('#partsThumBox004').css('height',ImgHeight);
-    });
-    
-    $('#partsNav004 a').click(function(){
-        if($(this).hasClass('over') == false){
-            $('#partsNav004 a').removeClass('over');
-            $(this).addClass('over');
-            $('#partsThumBox004 img').hide().attr('src',$(this).attr('href')).fadeIn();
-        };
-        return false;
-    }).filter(':eq(0)').click();
-});
+function partsList(){
+    for (i=0; i<partsListmnum; i++){
+        var noNum = i;
+        var resetNum = ('000' + noNum).slice(-3);
+        document.write('<a href="/html/parts/parts'+resetNum+'.html">');
+        document.write('<dl class="partsBox triMdl" id="wdp'+resetNum+'" data-tgt="wdp'+resetNum+'">');
+        document.write('<div class="partsMask">&nbsp;</div>');
+        document.write('<dt><img src="/img/parts/parts'+resetNum+'_01.jpg" width="80" height="80"></dt>');
+        document.write('<dd class="partsIcon"><img src="/img/icn/icn_partsType0gy.png" width="16"></dd>');
+        document.write('<dd class="partsNo">No.'+resetNum+'</dd>');
+        document.write('</dl>');
+        document.write('</a>');
+    }
+}
+partsList();

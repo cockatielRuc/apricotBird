@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* common */
+.txtU {
+  text-decoration: underline; }
+
 #siteTit {
   color: #ff8e00;
   font-weight: bold;
@@ -30,5 +33,37 @@
 body {
   margin: 0 auto !important;
   text-align: center; }
+
+.itemName {
+  font-size: 150%;
+  font-weight: bold;
+  margin: 10px; }
+
+.itemNote {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto; }
+
+.itemHR {
+  border: dashed 3px #999;
+  border-width: 3px 0 0 0;
+  margin: 15px auto; }
+
+.itemNote p {
+  margin: 10px; }
+
+.itemNote ul {
+  margin: 30px auto;
+  text-align: center; }
+
+.itemNote li {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle; }
+
+@media screen and (max-width: 640px) {
+  .itemHR {
+    border-width: 1px 0 0 0; } }
 
 /*# sourceMappingURL=setMonitor.css.map */
