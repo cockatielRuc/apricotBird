@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+    <title>apricotBird</title>
+    <link rel="stylesheet" media="all" href="/css/reset.css">
+    <link rel="stylesheet" media="all" href="/css/setMonitor.css">
+    <link rel="stylesheet" media="all" href="/css/item.css">
+
+    <script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script>
+    <script>
+    $(function() {
+        var screenWidth = $(window).width();
+        $('#wrap').css('width',screenWidth+'px');
+    });
+    </script>
+
+</head>
+<body>
+    <!-- header -->
+    <!--#include virtual="/header.shtml" -->
+
+    <p class="itemTit"><span>A</span>ccessories etc...</p>
+    <p class="itemTitSub">
+        制作物。アクセサリーや小物など。<br>
+        UVレジン、羊毛フェルトなどが多いです。<br>
+        作品画像をクリックすると拡大画像と説明が表示されます。<br>
+    </p>
+    <script src="/js/setitemList2.js"></script>
+
+    <hr class="itemHR">
+
+    <p class="itemTit"><span>P</span>arts etc...</p>
+    <ul class="maB10">
+        <li class="disInB txtT" style="width:550px;">
+            <p class="itemTitSub">
+                制作物。アクセサリーパーツなど。<br>
+                アクセサリー加工前の物ですのでオーダー受け付けております。
+            </p>
+        </li>
+        <li class="disInB txtT">
+            <p class="maB05">アイコン説明</p>
+            <dl class="icnDesc">
+                <dt class="disInB">
+                    <img src="/img/icn_partsType0gy.png" width="17">
+                </dt>
+                <dd class="disInB">サンプル/アクセサリーパーツ</dd>
+                <dt class="disInB"></dt>
+                <dd class="disInB"></dd>
+            </dl>
+        </li>
+    </ul>
+    <script src="/js/setpartsList2.js"></script>
+
+    <!--
+    <script type="text/javascript" src="/js/setMdl.js"></script>
+    <script type="text/javascript" src="/js/mdlitemList.js"></script>
+    -->
+</body>
+</html>

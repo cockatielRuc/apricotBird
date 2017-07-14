@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>apricotBird</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/set.css">
+</head>
+<body>
+    <!-- header -->
+    <!--#include virtual="/header.shtml" -->
+
+    <div class="disInB txtT maT20" style="width:620px;">
+        <p>
+            <span class="txtW mainColor">apricot</span><span class="txtW subColor1">B</span><span class="txtW mainColor">ird</span>ではハンドメイドアクセサリーの販売/紹介を行っております。<br>
+            ハンドメイドアクセサリーのセミオーダー/フルオーダーも承っております。<br>
+            現在、販売は外部サイトのみになっております。<br>
+            <a href="https://apricotbird.booth.pm/" target="_blank" class="subColor1">BOOTH：https://apricotbird.booth.pm/</a>
+        </p>
+        <ul class="maT20">
+            <li class="disInB txtT wp60">owner</li>
+            <li class="disInB txtT">: asa</li>
+        </ul>
+        <ul>
+            <li class="disInB txtT wp60">like</li>
+            <li class="disInB txtT">: 紅茶♡写真♡動物♡スチームパンク♡鉱石</li>
+        </ul>
+        <ul class="maT20">
+            <li class="disInB txtT wp60">web site</li>
+            <li class="disInB txtT">: FireFox or GoogleChromw 推奨<br>　IEでも閲覧は可能ですが一部表示が崩れる恐れがあります。</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>

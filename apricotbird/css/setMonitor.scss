@@ -1,0 +1,38 @@
+/* common */
+#siteTit{
+    color: #ff8e00;
+    font-weight: bold;
+    font-size: 250%;
+    font-family: "メイリオ",Arial,Verdana;
+    margin: 10px;
+    text-align: left;
+}
+#siteTit span{ color: #fd680d; }
+#menu{ margin-bottom: 20px; }
+#menu li{
+    margin: 0 3px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    color: #ff8e00;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: "メイリオ",Arial,Verdana;
+}
+#menu .knot{ color: #fd680d; }
+
+body{
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+
+@media screen and (min-width:1024px) {
+    body{
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body{
+    }
+}

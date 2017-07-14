@@ -1,0 +1,45 @@
+.spSite{ font-size: 200%; }
+p{ line-height: 1.75; }
+
+nav{ text-align: center; }
+nav li{
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 300%;
+}
+nav li.visited{ color: #fd680d; }
+nav li:nth-child(1):before { margin-right:20px; content: ":"; }
+nav li:after { margin-left:20px; content: ":"; }
+nav+hr{ border-top: dashed 2px #fd680d; border-width: 2px 0 0 0; margin-bottom : 15px;}
+
+
+.itemTit{ font-size: 300%; }
+.itemTitSub{ font-size: 200%; }
+
+.itemImgBox{
+    width: 140px;
+    height: 170px;
+}
+
+section{ margin: auto; width: 800px;}
+
+#slider-pro{ margin: auto !important; }
+
+.itemDataTit{ font-size: 150%; }
+.itemData,
+.icnDesc dd,
+.itemDesc li{ font-size: 130%; }
+
+.icnDesc dt,
+.icnDesc dd{ height: 36px; }
+.icnDesc dt{ width: 36px; }
+.icnDesc dd{ width: 220px; }
+
+.itemDesp dt,
+.itemDesp dd,
+.itemDesp th,
+.itemDesp td{ color: #555555; }
+
+.itemDesp,
+.itemThum{ width: 800px; margin: 0 auto; }

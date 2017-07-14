@@ -1,0 +1,83 @@
+@media screen and (min-width: 960px){
+    #container{
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+
+        #siteTit{
+            color: #ff8e00;
+            font-weight: bold;
+            font-size: 250%;
+            font-family: "メイリオ",Arial,Verdana;
+        }
+        #siteTit span{ color: #fd680d; }
+
+        #menu{ margin-bottom: 20px; }
+        #menu li{
+            margin: 0 3px;
+            vertical-align: middle;
+            text-align: center;
+            display: inline-block;
+            color: #ff8e00;
+            font-weight: bold;
+            font-size: 18px;
+            font-family: "メイリオ",Arial,Verdana;
+        }
+        #menu .knot{ color: #fd680d; }
+
+        .icnBox{
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            background: #ff8e00;
+            width: 30px;
+            height: 30px;
+        }
+        .icnBox img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:640px){
+    #container{
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto;
+
+        #siteTit{
+            color: #ff8e00;
+            font-weight: bold;
+            font-size: 200%;
+            font-family: "メイリオ",Arial,Verdana;
+        }
+        #siteTit span{ color: #fd680d; }
+
+        #menu{ margin-bottom: 20px; }
+        #menu li{
+            margin: 0 3px;
+            vertical-align: middle;
+            text-align: center;
+            display: inline-block;
+            color: #ff8e00;
+            font-weight: bold;
+            font-size: 18px;
+            font-family: "メイリオ",Arial,Verdana;
+        }
+        #menu .knot{ color: #fd680d; }
+
+        .icnBox{
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            background: #ff8e00;
+            width: 30px;
+            height: 30px;
+        }
+        .icnBox img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@media screen and (min-width: 960px) {
+  #container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto; }
+    #container #siteTit {
+      color: #ff8e00;
+      font-weight: bold;
+      font-size: 250%;
+      font-family: "繝｡繧､繝ｪ繧ｪ",Arial,Verdana; }
+    #container #siteTit span {
+      color: #fd680d; }
+    #container #menu {
+      margin-bottom: 20px; }
+    #container #menu li {
+      margin: 0 3px;
+      vertical-align: middle;
+      text-align: center;
+      display: inline-block;
+      color: #ff8e00;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: "繝｡繧､繝ｪ繧ｪ",Arial,Verdana; }
+    #container #menu .knot {
+      color: #fd680d; }
+    #container .icnBox {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      background: #ff8e00;
+      width: 30px;
+      height: 30px; }
+    #container .icnBox img {
+      width: 30px;
+      height: 30px; } }
+@media screen and (max-width: 640px) {
+  #container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto; }
+    #container #siteTit {
+      color: #ff8e00;
+      font-weight: bold;
+      font-size: 200%;
+      font-family: "繝｡繧､繝ｪ繧ｪ",Arial,Verdana; }
+    #container #siteTit span {
+      color: #fd680d; }
+    #container #menu {
+      margin-bottom: 20px; }
+    #container #menu li {
+      margin: 0 3px;
+      vertical-align: middle;
+      text-align: center;
+      display: inline-block;
+      color: #ff8e00;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: "繝｡繧､繝ｪ繧ｪ",Arial,Verdana; }
+    #container #menu .knot {
+      color: #fd680d; }
+    #container .icnBox {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      background: #ff8e00;
+      width: 30px;
+      height: 30px; }
+    #container .icnBox img {
+      width: 30px;
+      height: 30px; } }
+
+/*# sourceMappingURL=setMain.css.map */

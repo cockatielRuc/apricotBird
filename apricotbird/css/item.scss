@@ -1,0 +1,132 @@
+.itemTit{
+    color: #ff8e00;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: "メイリオ",Arial,Verdana;
+    margin: 10px;
+    text-align: left;
+    width: 100%;
+
+    span{ color: #fd680d; }
+}
+.itemTitSub{
+    font-size: 70%;
+    padding-left: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.icnDesc dt{
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 15px;
+    width: 24px;
+    height: 26px;
+}
+.icnDesc dd{
+    vertical-align: middle;
+    width: 150px;
+    height: 26px;
+    font-family: "メイリオ",Arial,Verdana;
+    font-size:70%;
+    color: #555555;
+}
+
+.itemHR{
+    border: dashed 3px #fd680d;
+    border-width: 3px 0 0 0;
+    margin: 60px auto 20px;
+}
+
+.itemBox{
+    display: inline-block;
+    width: 86px;
+    height: 120px;
+    text-align: center;
+    position: relative;
+    dt img{
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    dd{
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+    }
+}
+#wdi000,
+#wdp000{display: none !important;}
+.itemIcon{
+    top:83px;
+    left: 3px;
+}
+.itemNo{
+    font-size: 85%;
+    top:85px;
+    left: 26px;
+}
+
+.itemMask{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-color: #000000;
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Modal window */
+.modal{display:none;}
+.modalBody{
+    position: fixed;
+    z-index:90;
+    background-color: rgba(255, 255, 255, 1.0);
+    border: solid 1px #555;
+    width:700px;
+    height: 420px;
+    left:50%;
+    top:50%;
+}
+.modalBody li:nth-child(1){ width: 310px; }
+.modalBody li:nth-child(2){ width: 340px; padding: 15px; }
+.closeBtn{
+    position: absolute;
+    z-index:100;
+    top: -18px;
+    right: -18px;
+}
+.itemDataTit{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 100%;
+}
+.itemData{
+    background-color: #fff;
+    font-size: 80%;
+}
+
+.over img{
+    opacity:0.5;
+}
+#itemNav004, #itemNav005,
+#itemNav006, #itemNav010,
+#itemNav011, #itemNav013,
+#itemNav014, #itemNav016,
+#partsNav001, #partsNav002,
+#partsNav003, #partsNav004{ margin-top: 8px; }
+#itemNav004 dd, #itemNav005 dd,
+#itemNav006 dd, #itemNav010 dd,
+#itemNav011 dd, #itemNav013 dd,
+#itemNav014 dd, #itemNav016 dd,
+#partsNav001 dd, #partsNav002 dd,
+#partsNav003 dd, #partsNav004 dd{ margin: 0 4px 0 0; }

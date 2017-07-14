@@ -1,0 +1,8 @@
+<a href="/index.html"><p id="siteTit">apricot<span>B</span>ird</p></a>
+<ul id="menu">
+    <li><a href="/html/about.shtml">about</a></li>
+    <li class="knot">◆</li>
+    <li><a href="/html/item.shtml">item</a></li>
+    <li><a href="https://twitter.com/pwcNcoc/" target="_blank"><div class="icnBox"><img src="/img/icn/icn_twitter.png"></div></a></li>
+</ul>
+<!-- header -->
