@@ -20,7 +20,7 @@
 </head>
 <body>
     <!-- header -->
-    <!--#include virtual="/header.shtml" -->
+    <!--#include virtual="/html/header.shtml" -->
 
     <p class="itemTit"><span>A</span>ccessories etc...</p>
     <p class="itemTitSub">
