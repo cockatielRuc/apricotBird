@@ -43,6 +43,7 @@ a:hover{ text-decoration: underline; }
 
 #menu{ margin-bottom: 20px; }
 #menu li{
+    height: 30px;
     margin: 0 3px;
     vertical-align: middle;
     text-align: center;
@@ -62,10 +63,7 @@ a:hover{ text-decoration: underline; }
     width: 30px;
     height: 30px;
 }
-.icnBox img{
-    width: 30px;
-    height: 30px;
-}
+
 
 
 
