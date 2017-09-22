@@ -1,83 +1,57 @@
-@media screen and (min-width: 960px){
-    #container{
-        max-width: 960px;
-        width: 100%;
-        margin: 0 auto;
+.maT20{ margin-top: 20px; }
+.maB20{ margin-bottom: 20px; }
+.paL10{ padding-left: 10px; }
+.wp60{ width: 60%; }
+.wp100{ width: 100%; }
+.wd70{ width: 70px; }
+.fp70{ font-size: 70%; }
+.txtT{ vertical-align: top; }
+.txtc{ text-align: center; }
+.txtR{ text-align: right; }
+.txtW{ font-weight: bold; }
+.disinB{ display: inline-block; }
 
-        #siteTit{
-            color: #ff8e00;
-            font-weight: bold;
-            font-size: 250%;
-            font-family: "メイリオ",Arial,Verdana;
-        }
-        #siteTit span{ color: #fd680d; }
+.mainColor{ color: #ff8e00; }
+.subColor1{ color: #fd680d; }
 
-        #menu{ margin-bottom: 20px; }
-        #menu li{
-            margin: 0 3px;
-            vertical-align: middle;
-            text-align: center;
-            display: inline-block;
-            color: #ff8e00;
-            font-weight: bold;
-            font-size: 18px;
-            font-family: "メイリオ",Arial,Verdana;
-        }
-        #menu .knot{ color: #fd680d; }
+#container{
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
 
-        .icnBox{
-            border-radius: 10px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
-            background: #ff8e00;
-            width: 30px;
-            height: 30px;
-        }
-        .icnBox img{
-            width: 30px;
-            height: 30px;
-        }
+    #siteTit{
+        color: #ff8e00;
+        font-weight: bold;
+        font-size: 250%;
+        font-family: "メイリオ",Arial,Verdana;
+        text-align: left;
     }
-}
+    #siteTit span{ color: #fd680d; }
 
-@media screen and (max-width:640px){
-    #container{
-        max-width: 640px;
-        width: 100%;
-        margin: 0 auto;
+    #menu{ margin: 0 auto 30px auto; text-align: center; }
+    #menu li{
+        margin: 0 3px;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+        color: #ff8e00;
+        font-weight: bold;
+        font-size: 150%;
+        font-family: "メイリオ",Arial,Verdana;
+        height: 20px;
+    }
+    #menu .knot{ color: #fd680d; }
 
-        #siteTit{
-            color: #ff8e00;
-            font-weight: bold;
-            font-size: 200%;
-            font-family: "メイリオ",Arial,Verdana;
-        }
-        #siteTit span{ color: #fd680d; }
-
-        #menu{ margin-bottom: 20px; }
-        #menu li{
-            margin: 0 3px;
-            vertical-align: middle;
-            text-align: center;
-            display: inline-block;
-            color: #ff8e00;
-            font-weight: bold;
-            font-size: 18px;
-            font-family: "メイリオ",Arial,Verdana;
-        }
-        #menu .knot{ color: #fd680d; }
-
-        .icnBox{
-            border-radius: 10px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
-            background: #ff8e00;
-            width: 30px;
-            height: 30px;
-        }
-        .icnBox img{
-            width: 30px;
-            height: 30px;
-        }
+    .icnBox{
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        background: #ff8e00;
+        width: 30px;
+        height: 30px;
+    }
+    .icnBox img{
+        width: 30px;
+        height: 30px;
     }
 }

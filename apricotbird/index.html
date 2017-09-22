@@ -6,30 +6,24 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
     <title>apricotBird</title>
     <link rel="stylesheet" media="all" href="/css/reset.css">
-    <link rel="stylesheet" media="all" href="/css/set.css">
-    <link rel="stylesheet" media="all" href="/css/setMonitor.css">
+    <link rel="stylesheet" media="all" href="/css/setMain.css">
 
     <script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#headerPos").load("/html/header.html #headerSet");
+        })
+    </script>
 </head>
 <body id="container">
     <!-- header -->
-    <a href="/index.shtml"><p id="siteTit">apricot<span>B</span>ird</p></a>
-    <ul id="menu">
-        <li><a href="/html/about.shtml">about</a></li>
-        <li class="knot">◆</li>
-        <li><a href="/html/item.shtml">item</a></li>
-        <li class="knot">◆</li>
-        <li><a href="https://twitter.com/pwcNcoc" target="_blank"><img src="/img/icn/icn_twitter.png" width="30" class="icnBox"></a></li>
-    </ul>
+    <div id="headerPos"><!--include--></div>
     <!-- header -->
 
-
-    <div class="disInB txtT maT20" style="width:60%;">
-        <p>
-            <span class="txtW mainColor">apricot</span><span class="txtW subColor1">B</span><span class="txtW mainColor">ird</span>ではハンドメイドアクセサリーの販売/紹介を行っております。<br>
-            現在、販売は外部サイトのみになっております。<br>
-            <a href="https://apricotbird.booth.pm/" target="_blank" class="subColor1">BOOTH：https://apricotbird.booth.pm/</a>
-        </p>
-    </div>
+    <p>
+        <span class="txtW mainColor">apricot</span><span class="txtW subColor1">B</span><span class="txtW mainColor">ird</span>ではハンドメイドアクセサリーの販売/紹介を行っております。<br>
+        現在、販売は外部サイトのみになっております。<br>
+        <a href="https://apricotbird.booth.pm/" target="_blank" class="subColor1">BOOTH：https://apricotbird.booth.pm/</a>
+    </p>
 </body>
 </html>

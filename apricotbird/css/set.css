@@ -1,120 +1,23 @@
-.disInB{ display: inline-block; }
-.txtC{ text-align: center; }
-.txtT{ vertical-align: top; }
-.txtM{ vertical-align: middle; }
-.txtR{ text-align: right; }
-.txtW{ font-weight: bold; }
-.maT10{ margin-top: 10px; }
-.maT20{ margin-top: 20px; }
-.maT30{ margin-top: 30px; }
-.maL20{ margin-left: 20px; }
-.maB05{ margin-bottom: 5px; }
-.maB10{ margin-bottom: 10px; }
-.maR05{ margin-right: 5px; }
-.paT10{ padding-top: 10px; }
-.paT15{ padding-top: 15px; }
-.paL10{ padding-left: 10px; }
-.paL15{ padding-left: 15px; }
-.fs80{ font-size: 80%; }
-.fs70{ font-size: 70%; }
-.wp40{ width: 40px; }
-.wp50{ width: 50px; }
-.wp60{ width: 60px; }
-.wp70{ width: 70px; }
-.wp80{ width: 80px; }
-.wp90{ width: 90px; }
-.wp110{ width: 110px; }
-.wp130{ width: 130px; }
-.wp370{ width: 370px; }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - set.scss
 
-.mainColor{ color: #ff8e00; }
-.subColor1{ color: #fd680d; }
-
-a:hover{ text-decoration: underline; }
-
-#siteTit{
-    color: #ff8e00;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: "メイリオ",Arial,Verdana;
-    margin: 10px;
-}
-#siteTit span{ color: #fd680d; }
-
-#menu{ margin-bottom: 20px; }
-#menu li{
-    height: 30px;
-    margin: 0 3px;
-    vertical-align: middle;
-    text-align: center;
-    display: inline-block;
-    color: #ff8e00;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: "メイリオ",Arial,Verdana;
-}
-#menu .knot{ color: #fd680d; }
-
-.icnBox{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    background: #ff8e00;
-    width: 30px;
-    height: 30px;
-}
-
-
-
-
-/* index.html */
-#tweetBox{
-    border: solid 1px #e2e9ec;
-    border-width: 0 0 0 1px;
-}
-
-/* Modal window */
-.modal{display:none;}
-.modalBody{
-    position: fixed;
-    z-index:90;
-    background-color: rgba(255, 255, 255, 1.0);
-    border: solid 1px #555;
-    width:700px;
-    height: 420px;
-    left:50%;
-    top:50%;
-}
-.modalBody li:nth-child(1){ width: 310px; }
-.modalBody li:nth-child(2){ width: 340px; padding: 15px; }
-.closeBtn{
-    position: absolute;
-    z-index:100;
-    top: -18px;
-    right: -18px;
-}
-.itemDataTit{
-    font-weight: bold;
-    padding-bottom: 10px;
-    font-size: 100%;
-}
-.itemData{
-    background-color: #fff;
-    font-size: 80%;
-}
-
-.over img{
-    opacity:0.5;
-}
-#itemNav004, #itemNav005,
-#itemNav006, #itemNav010,
-#itemNav011, #itemNav013,
-#itemNav014, #itemNav016,
-#partsNav001, #partsNav002,
-#partsNav003, #partsNav004{ margin-top: 8px; }
-#itemNav004 dd, #itemNav005 dd,
-#itemNav006 dd, #itemNav010 dd,
-#itemNav011 dd, #itemNav013 dd,
-#itemNav014 dd, #itemNav016 dd,
-#partsNav001 dd, #partsNav002 dd,
-#partsNav003 dd, #partsNav004 dd{ margin: 0 4px 0 0; }
+Backtrace:
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:484:in `read'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+C:/Ruby24-x64/bin/sass:23:in `load'
+C:/Ruby24-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - set.scss"; }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+    <title>apricotBird</title>
+    <link rel="stylesheet" media="all" href="/css/reset.css">
+    <link rel="stylesheet" media="all" href="/css/setMain.css">
+    <link rel="stylesheet" media="all" href="/css/item.css">
+
+    <script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#headerPos").load("/html/header.html #headerSet");
+
+            var screenWidth = $(window).width();
+            $('#wrap').css('width',screenWidth+'px');
+
+            $('.buttonEar').click(function(){
+                $('.ear').show();
+                $('.arm').hide()
+                $('.ring').hide()
+                $('.neck').hide()
+            });
+            $('.buttonArm').click(function(){
+                $('.ear').hide()
+                $('.arm').show();
+                $('.ring').hide()
+                $('.neck').hide()
+            });
+            $('.buttonNeck').click(function(){
+                $('.ear').hide()
+                $('.arm').hide()
+                $('.ring').hide()
+                $('.neck').show();
+            });
+            $('.buttonRing').click(function(){
+                $('.ear').hide()
+                $('.arm').hide()
+                $('.ring').show();
+                $('.neck').hide()
+            });
+            $('.buttonALL').click(function(){
+                $('.ear').show();
+                $('.arm').show();
+                $('.ring').show();
+                $('.neck').show();
+            });
+
+        })
+    </script>
+
+</head>
+<body id="container">
+    <!-- header -->
+    <div id="headerPos"><!--include--></div>
+    <!-- header -->
+
+    <p class="itemTit"><span>A</span>ccessories etc...</p>
+    <p class="itemTitSub">
+        制作物。アクセサリーや小物など。<br>
+        UVレジン、羊毛フェルトなどが多いです。<br>
+        作品画像をクリックすると拡大画像と説明が表示されます。<br>
+    </p>
+    <div>
+        <ul class="txtR maB20">
+            <li class="txtR fp70">絞込み</li>
+            <li class="disinB txtc wd70 fp70">
+                    <img src="/img/icn/icn_itemTypePgy.png" width="30" class="buttonEar">
+                    <br>Earrings
+            </li>
+            <li class="disinB txtc wd70 fp70">
+                    <img src="/img/icn/icn_itemTypeBgy.png" width="30" class="buttonArm">
+                    <br>Bracelet/Ring
+            </li>
+            <li class="disinB txtc wd70 fp70">
+                    <img src="/img/icn/icn_itemTypeNgy.png" width="30" class="buttonNeck">
+                    <br>Necklace
+            </li>
+            <li class="disinB txtc wd70 fp70">
+                    <img src="/img/icn/icn_itemType0gy.png" width="30" class="buttonALL">
+                    <br>ALL
+            </li>
+        </ul>
+    </div>
+    
+
+    <script src="/js/setitemList.js"></script>
+
+    <hr class="itemHR">
+
+<!--
+    <p class="itemTit"><span>P</span>arts etc...</p>
+    <p class="itemTitSub">
+        制作物。アクセサリーパーツなど。<br>
+        アクセサリー加工前の物ですのでオーダー受け付けております。
+    </p>
+    <script src="/js/setpartsList.js"></script>
+-->
+
+</body>
+</html>
