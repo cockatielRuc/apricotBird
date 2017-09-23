@@ -15,6 +15,7 @@
     text-align: left;
     margin-bottom: 10px;
 }
+
 .icnDesc dt{
     vertical-align: middle;
     text-align: center;
@@ -86,9 +87,12 @@
 
 .itemName,
 .partsName{
-    font-size: 150%;
+    font-size: 130%;
     font-weight: bold;
     margin: 10px;
+    color: #cdd4d7;
+
+        .itemNameSub{ color: #b5b9bc; }
 }
 .itemNote,
 .partsNote{

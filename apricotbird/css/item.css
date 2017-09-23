@@ -10,7 +10,7 @@
     color: #fd680d; }
 
 .itemTitSub {
-  font-size: 70%;
+  font-size: 80%;
   padding-left: 15px;
   text-align: left;
   margin-bottom: 10px; }
@@ -84,9 +84,13 @@
 
 .itemName,
 .partsName {
-  font-size: 150%;
+  font-size: 130%;
   font-weight: bold;
-  margin: 10px; }
+  margin: 10px;
+  color: #cdd4d7; }
+  .itemName .itemNameSub,
+  .partsName .itemNameSub {
+    color: #b5b9bc; }
 
 .itemNote,
 .partsNote {

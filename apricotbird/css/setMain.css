@@ -5,6 +5,9 @@
 .maB20 {
   margin-bottom: 20px; }
 
+.maAUT {
+  margin: 0 auto; }
+
 .paL10 {
   padding-left: 10px; }
 
@@ -20,14 +23,23 @@
 .fp70 {
   font-size: 70%; }
 
+.fp50 {
+  font-size: 50%; }
+
 .txtT {
   vertical-align: top; }
+
+.txtC {
+  text-align: center; }
 
 .txtc {
   text-align: center; }
 
 .txtR {
   text-align: right; }
+
+.txtU {
+  text-decoration: underline; }
 
 .txtW {
   font-weight: bold; }
